@@ -62,14 +62,16 @@ p {
 
 .button {
   background-color: #d43e0d;
-  border-radius: 25px;
+  border: none;
+  border-radius: 12px;
   color: black;
-  padding: 1.25em 2em;
   font-family: 'Ranchers', cursive;
   font-size: 16pt;
   margin: 30px;
-  text-decoration: none;
+  padding: .75em 0;
+  text-align: center;
   text-transform: uppercase;
+  width: 150px;
 }
 
 .button:hover {
@@ -80,8 +82,8 @@ p {
   background-color: grey;
 }
 
-.button-holder {
-  margin: auto;
+.inline {
+  display: inline;
 }
 
 .bad-end-text {
@@ -89,7 +91,7 @@ p {
 }
 
 .end-text {
-  font-size: 30pt;
+  font-size: 23pt;
 }
 
 #end {
